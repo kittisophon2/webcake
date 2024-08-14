@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Prompt";
+    src: url("/webcake-main/assets/font/Prompt-Medium.ttf");
+}
+.full-screen{
+    height: 100vh;
+}
+body{
+    font-family: "Prompt", sans-serif;
+}
+.hero{
+    background-image: url("https://plus.unsplash.com/premium_photo-1715080612103-f11b337811c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.hero-content{
+
+}
